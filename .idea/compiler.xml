@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blade-auth" />
+        <module name="blade-resource" />
+        <module name="blade-user" />
+        <module name="blade-admin" />
+        <module name="blade-seata-storage" />
+        <module name="blade-desk-api" />
+        <module name="blade-user-api" />
+        <module name="blade-gateway" />
+        <module name="blade-seata-order" />
+        <module name="blade-desk" />
+        <module name="blade-system" />
+        <module name="blade-develop" />
+        <module name="blade-log" />
+        <module name="blade-dict-api" />
+        <module name="blade-system-api" />
+        <module name="blade-common" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
 </project>
