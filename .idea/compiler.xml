@@ -6,24 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="blade-core-launch" />
+        <module name="blade-core-log" />
         <module name="blade-auth" />
-        <module name="blade-resource" />
-        <module name="blade-user" />
+        <module name="blade-core-datascope" />
+        <module name="blade-core-mybatis" />
         <module name="blade-admin" />
         <module name="blade-seata-storage" />
-        <module name="blade-desk-api" />
         <module name="blade-user-api" />
+        <module name="blade-core-report" />
         <module name="blade-gateway" />
         <module name="blade-seata-order" />
         <module name="blade-desk" />
-        <module name="blade-system" />
         <module name="blade-develop" />
+        <module name="blade-common" />
+        <module name="blade-core-transaction" />
+        <module name="blade-core-cloud" />
+        <module name="blade-core-oss" />
+        <module name="blade-core-swagger" />
+        <module name="blade-resource" />
+        <module name="blade-core-develop" />
+        <module name="blade-user" />
+        <module name="blade-desk-api" />
+        <module name="blade-core-test" />
+        <module name="blade-system" />
+        <module name="blade-core-boot" />
+        <module name="blade-core-tool" />
         <module name="blade-log" />
         <module name="blade-dict-api" />
         <module name="blade-system-api" />
-        <module name="blade-common" />
+        <module name="blade-core-loadbalancer" />
+        <module name="blade-core-social" />
+        <module name="blade-core-secure" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="blade-custom-tool" target="8" />
+      <module name="blade-tool-mybatis" target="8" />
+      <module name="blade-tool-secure" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

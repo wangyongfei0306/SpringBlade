@@ -15,6 +15,7 @@
         <module>blade-ops</module>
         <module>blade-service</module>
         <module>blade-service-api</module>
+        <module>blade-tool</module>
     </modules>
 
     <properties>
