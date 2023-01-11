@@ -15,6 +15,23 @@
         <option value="$PROJECT_DIR$/blade-custom-tool/blade-tool-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/blade-custom-tool/blade-tool-secure/pom.xml" />
         <option value="$PROJECT_DIR$/blade-custom-tool/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-datascope/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-develop/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-launch/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-loadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-log/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-report/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-secure/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-social/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-test/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-tool/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/blade-core-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-tool/pom.xml" />
       </set>
     </option>
   </component>

@@ -6,42 +6,59 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="blade-core-launch" />
-        <module name="blade-core-log" />
+        <module name="blade-tools-secure" />
         <module name="blade-auth" />
-        <module name="blade-core-datascope" />
-        <module name="blade-core-mybatis" />
+        <module name="blade-tools-oss" />
+        <module name="blade-tools-develop" />
         <module name="blade-admin" />
         <module name="blade-seata-storage" />
+        <module name="blade-tools-cloud" />
         <module name="blade-user-api" />
-        <module name="blade-core-report" />
         <module name="blade-gateway" />
         <module name="blade-seata-order" />
         <module name="blade-desk" />
+        <module name="blade-tools-tool" />
+        <module name="blade-tools-test" />
         <module name="blade-develop" />
         <module name="blade-common" />
-        <module name="blade-core-transaction" />
-        <module name="blade-core-cloud" />
-        <module name="blade-core-oss" />
-        <module name="blade-core-swagger" />
         <module name="blade-resource" />
-        <module name="blade-core-develop" />
+        <module name="blade-tools-transaction" />
         <module name="blade-user" />
+        <module name="blade-tools-loadbalancer" />
+        <module name="blade-tools-report" />
+        <module name="blade-tools-datascope" />
         <module name="blade-desk-api" />
-        <module name="blade-core-test" />
+        <module name="blade-tools-swagger" />
+        <module name="blade-tools-mybatis" />
+        <module name="blade-tools-lanuch" />
         <module name="blade-system" />
-        <module name="blade-core-boot" />
-        <module name="blade-core-tool" />
+        <module name="blade-tools-log" />
         <module name="blade-log" />
         <module name="blade-dict-api" />
         <module name="blade-system-api" />
-        <module name="blade-core-loadbalancer" />
-        <module name="blade-core-social" />
-        <module name="blade-core-secure" />
+        <module name="blade-tools-social" />
+        <module name="blade-tools-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="blade-core-boot" target="8" />
+      <module name="blade-core-cloud" target="8" />
+      <module name="blade-core-datascope" target="8" />
+      <module name="blade-core-develop" target="8" />
+      <module name="blade-core-launch" target="8" />
+      <module name="blade-core-loadbalancer" target="8" />
+      <module name="blade-core-log" target="8" />
+      <module name="blade-core-mybatis" target="8" />
+      <module name="blade-core-oss" target="8" />
+      <module name="blade-core-report" target="8" />
+      <module name="blade-core-secure" target="8" />
+      <module name="blade-core-social" target="8" />
+      <module name="blade-core-swagger" target="8" />
+      <module name="blade-core-test" target="8" />
+      <module name="blade-core-tool" target="8" />
+      <module name="blade-core-transaction" target="8" />
       <module name="blade-custom-tool" target="8" />
+      <module name="blade-tool" target="8" />
       <module name="blade-tool-mybatis" target="8" />
       <module name="blade-tool-secure" target="8" />
     </bytecodeTargetLevel>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>SpringBlade</artifactId>
+        <groupId>com.springblade</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>blade-tools</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>blade-tools-boot</module>
+        <module>blade-tools-cloud</module>
+        <module>blade-tools-datascope</module>
+        <module>blade-tools-develop</module>
+        <module>blade-tools-lanuch</module>
+        <module>blade-tools-loadbalancer</module>
+        <module>blade-tools-log</module>
+        <module>blade-tools-mybatis</module>
+        <module>blade-tools-oss</module>
+        <module>blade-tools-report</module>
+        <module>blade-tools-secure</module>
+        <module>blade-tools-swagger</module>
+        <module>blade-tools-test</module>
+        <module>blade-tools-tool</module>
+        <module>blade-tools-transaction</module>
+        <module>blade-tools-social</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <mybatis.plus.version>3.5.2</mybatis.plus.version>
+        <mica.auto.version>1.2.5</mica.auto.version>
+        <guava.version>20.0</guava.version>
+        <swagger.version>2.10.5</swagger.version>
+        <swagger.models.version>1.6.2</swagger.models.version>
+        <protostuff.version>1.6.0</protostuff.version>
+        <protostuff.version>1.6.0</protostuff.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.2.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>net.dreamlu</groupId>
+            <artifactId>mica-auto</artifactId>
+            <version>${mica.auto.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
